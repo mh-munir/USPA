@@ -1,0 +1,206 @@
+.modal-content {
+    border-radius: 0;
+ }
+ 
+ .modal-body {
+    padding: 0 22.5px;
+ }
+ 
+ .modalCustomHeader {
+    padding: 3% !important;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .modal-body p {
+    line-height: 19px;
+    font-size: 14px;
+ }
+ 
+ .modalCustomTitle {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 10%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: solid 1px red;
+ }
+ 
+ .modal-backdrop.in {
+    height: 100%
+ }
+ 
+ #myModal,
+ #familyMovingModal {
+    top: 10%
+ }
+ 
+ .modal-backdrop {
+    position: fixed;
+    overflow: hidden;
+    z-index: 10;
+ }
+ 
+ .footerCustomModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 3% !important;
+ }
+ 
+ .footerCustomButton {
+    background: #ed7d31;
+    color: #fff !important;
+    font-size: 25px;
+    font-weight: bold !important;
+    padding: 10px 10%;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 0;
+ }
+ 
+ .footerCustomButton:hover,
+ .footerCustomButton:active {
+    background: #ed7d31;
+ }
+ 
+ @media (max-width: 321px) {
+ 
+    #myModal,
+    #familyMovingModal {
+       top: 7%;
+    }
+ }
+
+ ul.suggestion{
+    margin: 0;
+    padding: 0;
+    /* height: 50px; */
+    min-height: 40px;
+    max-height: 100px;
+    width: 100%;
+    overflow: scroll;
+    z-index: 100 !important;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 1px 5px rgb(0, 0, 0,0.2);
+  }
+  ul.suggestion li.result{
+    cursor: pointer;
+    list-style: none;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid rgba(13, 13, 14, 0.1);
+  }
+  ul.suggestion li:hover{
+    background: #fafafa;
+  }
+  /* START PROCESSING MODAL */
+body.modal-open {
+    overflow: inherit;
+    padding-right: inherit !important;
+  }
+  
+  #processingModal h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+    border: none;
+    padding: 0;
+  }
+  
+  #processingModal .modal-backdrop.in {
+    opacity: .7;
+  }
+  
+  #processingModal p {
+    font-size: 18px;
+  }
+  
+  #processingModal .modal-dialog {
+    width: 60%;
+    height: 50%;
+    margin-top: 5%;
+  }
+  
+  #processingModal .modal-body {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+  
+  #processingModal .modal-content {
+    height: auto;
+    min-height: 50%;
+  }
+  
+  #processingModal img {
+    margin-bottom: 15px;
+  }
+  
+  /* END PROCESSING MODAL */
+  #processingModal .modal-dialog {
+    width: initial;
+  }
+
+  
+/* ------------
+Modal Css
+--------------- */
+.modal-content {
+    border-radius: 0;
+    padding: 10px;
+  }
+  .modal-header h4{
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .modal-body p {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin: 10px 0 5px 0;
+    word-break: break-word;
+    text-align: justify;
+  }
+  .modal-title span i{
+    font-size: 22px;
+    margin: 5px;
+  }
+  /* ----------------Apt-Box_Modal------------------ */
+.apt-type{
+    color: #999 !important;
+  }
+  .apt-type:focus{
+    color: #000 !important;
+  }
+  .apt_footer {
+    padding: 0px 22px!important;
+    text-align: right;
+    border-top: 0px solid #e5e5e5;
+  }
+  .atp_modal_header {
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .form-control_atp {
+    padding: 6px 8px !important;
+  }
+  .btn_warning_ok,
+  .btn_warning_ok:hover{
+    background: #ffb403;;
+  }
+  button.close {
+    font-size: 40px;
+}
+
+.close {
+    color: #000 !important;
+    opacity: .5;
+}
+  /* ----------------Apt-Box_Modal_End------------------ */

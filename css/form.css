@@ -1,0 +1,9 @@
+
+.err_msg {  color:white; font-size:10px; padding-left:5px; padding-right:5px; }
+.hint_msg { color:green; font-size:10px; padding-left:5px; padding-right:5px; }
+.err_on {  color:red; }
+.sel_placeholder, .placeholder {color: #999999;}
+.imgmain, .imgform { display:none; }
+.errorlabel { color:red; }
+.rederr { border:1px solid red; }
+.error { color:red; }
